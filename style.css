@@ -46,12 +46,18 @@
 
 
 body{
-    margin: 0;
-
+    margin: 0 0 0 390px;
+    font-family: ;
+}
+.contain1
+{
+    
+    max-width: 1882px;
+    height: 1452px;
 }
 header{
-    width: 100%;
-    max-width: 641px;
+    width: 641px;
+    max-width: 650px;
 
 }
 header > p{
@@ -65,3 +71,27 @@ header > p{
     justify-content: space-between;}
    
 
+nav{
+    width:77%;
+    max-width: 481px;
+    font-family: 'Nunito-Regular',sans-serif;
+    font-size: 1rem;
+}
+li{
+    list-style-type:none;
+}
+a:hover{
+    text-decoration: overline;
+    font-family:'Nunito-Bold',sans-serif ;
+    font-size: 1.0625rem;
+}
+  a{
+    text-decoration:none;  
+  }
+  .fond1
+  {
+      background-image: url(medias/Bg.png);
+      background-repeat: no-repeat;
+      
+
+  }
