@@ -76,6 +76,7 @@ nav{
     max-width: 481px;
     font-family: 'Nunito-Regular',sans-serif;
     font-size: 1rem;
+    
 }
 li{
     list-style-type:none;
@@ -84,14 +85,18 @@ a:hover{
     text-decoration: overline;
     font-family:'Nunito-Bold',sans-serif ;
     font-size: 1.0625rem;
+    color:#554D89;
 }
   a{
     text-decoration:none;  
+    color: #5B5766;
   }
-  .fond1
-  {
-      background-image: url(medias/Bg.png);
-      background-repeat: no-repeat;
-      
-
-  }
+ .text-imagehero > h1
+ {
+     margin-top:311px;
+     font-family: 'Poppins-Bold',sans-serif;
+     font-size: 3.125rem;
+     line-height: 3.75rem;
+     color: #554D89;
+ }
+ 
