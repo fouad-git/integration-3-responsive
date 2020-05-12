@@ -72,6 +72,8 @@ body{
     
     max-width: 1882px;
     height: 1452px;
+  
+}
 }
 header{
     width: 641px;
@@ -134,5 +136,12 @@ a:hover{
     text-align: center;
     margin-right: 30px;
     margin-top: 55px;
-
  }
+/*section2*/
+.contain2
+{
+    width: auto;
+    max-width: 1140;
+    height: 616;
+    margin: 0 390px 0 390px;
+}
