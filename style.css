@@ -64,31 +64,44 @@
 
 
 body{
-    margin: 0 0 0 390px;
+    margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
 }
+
+
+.gr-contain
+{
+  width:70%;  
+  max-width: 1920px;
+  height: 4229px;
+  margin: 0 0 0 390px;
+}
+
+
 .contain1
 {
-    
     max-width: 1882px;
-    height: 1452px;
-  
+    height: auto;
 }
-}
+
+
 header{
     width: 641px;
     max-width: 650px;
 
 }
+
+
 header > p{
-    width: 6.9375rem;
-    max-width:7.1875rem;
+    width: 111px;
+    max-width:115px;
     font-family: 'Nunito-Bold',sans-serif;
     font-size: 1rem;
     color: #554D89;
     display: flex;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
    
 
 nav{
@@ -98,19 +111,28 @@ nav{
     font-size: 1rem;
     
 }
+
+
 li{
     list-style-type:none;
 }
+
+
 a:hover{
-    text-decoration: overline;
+    
+    border-top:2px solid #554D89;
+    padding-top: 10px;
     font-family:'Nunito-Bold',sans-serif ;
     font-size: 1.0625rem;
     color:#554D89;
 }
-  a{
+
+
+a{
     text-decoration:none;  
     color: #5B5766;
-  }
+}
+  /*section imagehero après la navbar*/
  .text-imagehero > h1
  {
      margin-top:311px;
@@ -119,13 +141,17 @@ a:hover{
      line-height: 3.75rem;
      color: #554D89;
  }
+
+
  .text-imagehero > p
  {
      font-size: 1.375rem;
      line-height: 2.0625rem;
      color: #5B5766;
  }
- #button1
+
+
+ .button
  {
      border-radius: 35px;
      font-family: 'Poppins-Medium',sans-serif;
@@ -137,21 +163,42 @@ a:hover{
     margin-right: 30px;
     margin-top: 55px;
  }
+
+
 /*section2*/
+
+
+
 .contain2
 {
-    width: auto;
-    max-width: 1140;
-    height: 616;
-    margin: 0 390px 0 390px;
+    width: 80%;
+    max-width: 1140px;
+    height: 616px;
+    margin-top: 30px;
 }
+
+
+.contain2 a{
+    text-decoration: none;
+    border:none;
+    padding:none;
+}
+
+
+
 .article-c2
 {
-    width: 360px;
+    width: 32%;
+    max-width: 360px;
     height: 616px;
     font-family: 'Nunito-Regular',sans-serif;
     font-size: 1.125rem;
     line-height: 1.6875rem;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px #000000;
+    box-shadow: 0px 5px 10px #000000;
+}
+#flexio
+{
+    border-bottom:4px solid #554D89;
+    padding-bottom: 30px;
 }
