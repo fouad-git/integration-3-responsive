@@ -145,3 +145,13 @@ a:hover{
     height: 616;
     margin: 0 390px 0 390px;
 }
+.article-c2
+{
+    width: 360px;
+    height: 616px;
+    font-family: 'Nunito-Regular',sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000000;
+}
