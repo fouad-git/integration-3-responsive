@@ -66,30 +66,19 @@
 body{
     margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
+    color: #716C80;
 }
 
 
-.gr-contain
+.container
 {
-  width:70%;  
-  max-width: 1920px;
-  height: 4229px;
-  margin: 0 0 0 390px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 
-.contain1
-{
-    max-width: 1882px;
-    height: auto;
-}
-
-
-header{
-    width: 641px;
-    max-width: 650px;
-
-}
 
 
 header > p{
