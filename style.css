@@ -43,6 +43,12 @@
     display: flex;
     justify-content: space-between;
 }
+.dflex-ar
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 /*couleurs*/
 .coul-text
 {
@@ -67,7 +73,8 @@ body{
     margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
     color: #716C80;
-    background:no-repeat url(medias/Bg.png);
+    background:url(medias/Bg.png);
+    background-repeat: no-repeat ;
     background-position: 277% -263px;
     background-size: 85%;
 }
@@ -125,7 +132,6 @@ li:hover{
 
 a{
     text-decoration:none;  
-<<<<<<< HEAD
     color: #5B5766;
 }
 
@@ -166,21 +172,9 @@ a{
 
 /*section2*/
 
-
-
-.contain2
+.pad-cont2
 {
-    width: 80%;
-    max-width: 1140px;
-    height: 616px;
-    margin-top: 30px;
-}
-
-
-.contain2 a{
-    text-decoration: none;
-    border:none;
-    padding:none;
+    padding:auto auto;
 }
 
 
@@ -198,10 +192,6 @@ a{
 }
 #flexio
 {
-    border-bottom:4px solid #554D89;
-    padding-bottom: 30px;
+    text-decoration: underline;
+
 }
-=======
-  }
-  
->>>>>>> fond1
