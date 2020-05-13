@@ -78,13 +78,12 @@ body{
     max-width: 1140px;
     margin: 0 auto;
     box-sizing: border-box;
-    padding-bottom: 216px;
-    border-bottom: 3Px solid black;
+   
 }
 
-#marg-cont1
+#marg-cont2
 {
-    padding-bottom: 353px;
+   margin-top: 353px;
 }
 
 
