@@ -67,8 +67,10 @@ body{
     margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
     color: #716C80;
+    background:no-repeat url(medias/Bg.png);
+    background-position: 277% -263px;
+    background-size: 85%;
 }
-
 
 .container
 {
@@ -76,12 +78,17 @@ body{
     max-width: 1140px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding-bottom: 216px;
+    border-bottom: 3Px solid black;
+}
+
+#marg-cont1
+{
+    padding-bottom: 353px;
 }
 
 
-
-
-header > p{
+.logo{
     width: 111px;
     max-width:115px;
     font-family: 'Nunito-Bold',sans-serif;
@@ -94,7 +101,7 @@ header > p{
    
 
 nav{
-    width:77%;
+    width:43%;
     max-width: 481px;
     font-family: 'Nunito-Regular',sans-serif;
     font-size: 1rem;
@@ -105,9 +112,9 @@ nav{
 li{
     list-style-type:none;
 }
+         
 
-
-a:hover{
+li:hover{
     
     border-top:2px solid #554D89;
     padding-top: 10px;
@@ -121,6 +128,9 @@ a{
     text-decoration:none;  
     color: #5B5766;
 }
+
+
+
   /*section imagehero après la navbar*/
  .text-imagehero > h1
  {
