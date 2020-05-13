@@ -172,13 +172,6 @@ a{
 
 /*section2*/
 
-.pad-cont2
-{
-    padding:auto auto;
-}
-
-
-
 .article-c2
 {
     width: 32%;
@@ -190,8 +183,44 @@ a{
     border-radius: 10px;
     box-shadow: 0px 5px 10px #000000;
 }
-#flexio
-{
-    text-decoration: underline;
 
+#bt-bestchoise
+{
+    border-radius:25px;
+    border: none;
+    background-color: #E1E4ED;
+    color: #EF7171;
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 0.625rem;
+   padding: 0.625rem;
+}
+.flexio
+{
+    
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 1.25rem;
+    color:#554D89;
+
+}
+.marg-img
+{
+    margin:0;
+    padding-left: 60px;
+}
+.price
+{
+    font-family:'Poppins-Bold',sans-serif; 
+    color: #554D89;
+    font-size: 3.125rem;
+    padding-left:60px;
+    margin-bottom: 0;
+    
+}
+.mrg60
+{
+    margin-left: 60px;
+}
+.mrg-top
+{
+    margin-top: 64px;
 }
