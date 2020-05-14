@@ -75,8 +75,8 @@ body{
     color: #716C80;
     background:url(medias/Bg.png);
     background-repeat: no-repeat ;
-    background-position: 277% -263px;
-    background-size: 85%;
+    background-position: 132% -257px;
+    background-size: 65%;
 }
 
 .container
@@ -120,7 +120,7 @@ li{
 }
          
 
-li:hover{
+.hovct1:hover{
     
     border-top:2px solid #554D89;
     padding-top: 10px;
@@ -181,7 +181,7 @@ a{
     font-size: 1.125rem;
     line-height: 1.6875rem;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px #000000;
+    box-shadow: 0px 5px 10px #F2F3F7;
 }
 
 #bt-bestchoise
@@ -223,4 +223,22 @@ a{
 .mrg-top
 {
     margin-top: 64px;
+}
+.article-c2 a{
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+   
+}
+
+
+.paddt{
+   padding-top:15px;
+}
+.container-mil
+{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
 }
