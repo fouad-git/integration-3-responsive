@@ -75,7 +75,7 @@ body{
     color: #5B5766;
     background:url(medias/pillule.png);
     background-repeat: no-repeat ;
-    background-position: 132% -257px;
+    background-position: 130% -257px;
     background-size: 65%;
 }
 
@@ -243,8 +243,8 @@ a{
     box-sizing: border-box;
     text-align: center;
     background: no-repeat url(medias/forme-transp.png);
-    background-size: 100%;
-   background-position: 54% 100%;
+    background-size: 102%;
+   background-position: -6% 100%;
    background-image: linear-gradient(to right rgba(225,228,237,.3),rgba(225,228,237,.3));
 }
 .container-mil h2{
@@ -260,4 +260,8 @@ a{
     font-family:'Poppins-Bold',sans-serif; 
     font-size: 1.25rem;
     color: #554D89;
+}
+#marg-Pft
+{
+    margin-bottom: 70px;
 }
