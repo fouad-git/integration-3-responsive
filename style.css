@@ -100,10 +100,7 @@
 {
     font-family: 'Poppins-Bold', sans-serif;
 }
-.t1
-{
-    font
-}
+
 
 /**tailles textes*/
 .
@@ -115,7 +112,6 @@
 body{
     margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
-    color: #5B5766;
     background:url(medias/gillule.png);
     background-repeat: no-repeat ;
     background-position: 130% -257px;
@@ -380,4 +376,34 @@ a{
 .mrg-tpc3
 {
 margin-top: 127px;
+}
+
+
+/***partie avec l'insertion image avant le footer***/
+
+
+#bg-avft{
+    border-radius:290px 260px 260px 80px;
+}
+
+
+#txt--nextcl{
+    width: 417px;
+    height: 295px;
+}
+
+
+
+#txt--nextcl :first-child{
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 34px;
+    color: #554D89;
+    font-weight: bold;
+}
+
+
+txt--nextcl :nth-child(2){
+font-family:'Nunito-Regular',sans-serif ;
+color: #5B5766;
+line-height: 27px;
 }
