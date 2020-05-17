@@ -103,19 +103,20 @@
 
 
 /**tailles textes*/
-.
+
 
 
 /******************/
 
 
-body{
+body
+{
     margin: 0;
     font-family:'Nunito-Regular',sans-serif ;
     background:url(medias/gillule.png);
     background-repeat: no-repeat ;
-    background-position: 130% -257px;
-    background-size: 65%;
+    background-position: 145% -180px;
+    background-size: 70%;
 }
 
 .container
@@ -169,7 +170,7 @@ li{
 }
 
 
-a{
+ a {
     text-decoration:none;  
     color: #5B5766;
 }
@@ -219,8 +220,9 @@ a{
     font-family: 'Nunito-Regular',sans-serif;
     font-size: 1.125rem;
     line-height: 1.6875rem;
+    color: #716C80;
     border-radius: 10px;
-    box-shadow: 0px 5px 10px #F2F3F7;
+    box-shadow: 0 0 10px 8px #F2F3F7;
 }
 
 #bt-bestchoise
@@ -285,7 +287,7 @@ a{
     background-size: cover;
    background-position: 4% 7%;
    background-color:rgba(225, 228, 237, .3);
-   padding: 115px 0 75px 0;
+   padding-top: 115px;
 }
 .container-mil h2{
     font-family: 'Poppins-Bold',sans-serif; 
@@ -303,7 +305,8 @@ a{
 }
 #marg-Pft
 {
-    margin-bottom: 70px;
+    padding-bottom: 75px;
+    color: #716C80;
 }
 /*section avec les 4 rectangles et la partie droite*/
 
@@ -390,6 +393,7 @@ margin-top: 127px;
 #txt--nextcl{
     width: 417px;
     height: 295px;
+    color: #716C80;
 }
 
 
@@ -406,4 +410,82 @@ txt--nextcl :nth-child(2){
 font-family:'Nunito-Regular',sans-serif ;
 color: #5B5766;
 line-height: 27px;
+}
+
+
+
+
+/*footer*/
+
+
+#head--ft{
+    width: 1140px;
+    height: 110px;
+    background-color: #6852ED;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+#head--ft :first-child{
+    font-family:'Nunito-Regular',sans-serif ;
+    font-size: 22px;
+    color: #D2CBFA;
+}
+#head--ft :last-child{
+    font-family:'Poppins-Medium',sans-serif ;
+    border-radius: 40px;
+    border: 2px solid #707070;
+    background-color: #6852ED;
+    padding: 13px 30px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+.bse--ft
+{
+    font-family: 'Nunito-Regular',sans-serif ;
+    font-size: 18px;
+    line-height: 27px;
+    color: #716C80;
+}
+#mrg-para-bt
+{
+    margin-bottom: 45px;
+}
+
+.title--para-ft{
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 20px;
+    color: #554D89;
+}
+.mrg-bx--ft{
+    padding-bottom: 35px;
+}
+.hvr :hover{
+    color:#EF7171;
+    }
+#ft-st-nr{
+    font-style: normal;
+    margin-left: 40px;
+}
+#mrg-tp
+{
+    margin-top: 50px;
+}
+
+#mini--ft
+{
+    margin: 50px 0 135px 41px;
+}
+#ft-ft
+{
+    font-family: 'Poppins-Bold',sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    color: #716C80;
+}
+#mini--ft a {
+    color:#6852ED;
 }
